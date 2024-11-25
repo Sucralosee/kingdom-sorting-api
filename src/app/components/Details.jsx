@@ -16,12 +16,13 @@ export default function Details() {
 
   return (
     <div className="p-6 rounded-lg bg-gray-900 border border-gray-600 hover:border-indigo-500 hover:border-4 max-w-2xl mx-auto">
-      <div className="relative w-full h-40 mb-4">
+      <div className="relative w-full aspect-[3/2] mb-4">
         <Image
           src={country.flags.svg}
           alt={`Flag of ${country.name.common}`}
           fill
-          className="object-cover rounded-md"
+          className="object-contain rounded-md"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
       </div>
       <h3 className="text-xl font-semibold mb-3 text-gray-100">{country.name.common}</h3>
