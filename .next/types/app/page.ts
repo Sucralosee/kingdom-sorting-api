@@ -1,4 +1,4 @@
-// File: /Users/benl/Desktop/kingdom-sorting-api/src/app/page.js
+// File: /Users/benl/Desktop/kingdom-sorting-api/src/app/page.jsx
 import * as entry from '../../../src/app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
